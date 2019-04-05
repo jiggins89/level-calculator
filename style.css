@@ -2,6 +2,7 @@ body {
   /* general text style*/
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
+  background-color: #F6F6F6;
 }
 
 h1 {
@@ -17,12 +18,70 @@ p {
   font-size: 1.5rem;
 }
 
+img {
+  margin-bottom: 5vh;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+}
+
 td {
-  font-size: 1.5rem;
+  width: 100%;
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+input {
+  width: 100%;
+  border: 5px solid grey;
+  border-style: inset;
+  border-radius: 20px;
+}
+
+tr td button {
+  height: 5vh;
+  margin-bottom: 5vh;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+tr td input {
+  height: 10vh;
+  margin-bottom: 2vh;
+  text-align: center;
+  font-size: 7.5rem;
+}
+
+.btn-primary {
+  height: 80%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+#result {
+  height: 10vh;
+  border: 5px solid grey;
+  border-style: inset;
+  text-align: center;
+  font-size: 7.5rem;
+  border-radius: 20px;
 }
 
 .container {
   display: flex;
+  flex-direction: column;
   height: 100vh;
-  background-color: yellow;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+
+  /*to be deleted*/
+  /*background-color: yellow;*/
 }
