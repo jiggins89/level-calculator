@@ -1,0 +1,28 @@
+body {
+  /* general text style*/
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 7rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+td {
+  font-size: 1.5rem;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: yellow;
+}
