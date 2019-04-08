@@ -2,7 +2,7 @@ body {
   /* general text style*/
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
-  background-color: #F5F5F5;
+  background-color: #E8E8E8;
 }
 
 h1 {
@@ -30,12 +30,15 @@ table {
 tr {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2%;
 }
 
 td {
   width: 100%;
   font-size: 3.5rem;
   font-weight: 400;
+  display: flex;
+  align-items: center;
 }
 
 input {
@@ -46,22 +49,36 @@ input {
 }
 
 tr td button {
-  height: 5vh;
-  margin-bottom: 5vh;
+  height: 8vh;
+  /*margin-bottom: 5vh;*/
   text-align: center;
-  font-size: 4rem;
-  font-weight: 300;
+  font-size: 5rem;
+  font-weight: 400;
 }
 
 tr td input {
-  height: 10vh;
-  margin-bottom: 2vh;
+  /*height: 100%;*/
+  /* margin-bottom: 10%; */
   text-align: center;
-  font-size: 7.5rem;
+  font-size: 5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%;
+  max-height: 70vh;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  margin-top: 5%;
+
+  /*to be deleted*/
+  /*background-color: yellow;*/
 }
 
 .btn-primary {
-  height: 80%;
+  /*height: 80%;*/
   width: 100%;
   border-radius: 20px;
   background-color: #0165A4;
@@ -70,22 +87,11 @@ tr td input {
 }
 
 #result {
-  height: 10vh;
+  height: 8vh;
   border: 5px solid grey;
   border-style: inset;
   text-align: center;
-  font-size: 7.5rem;
+  font-size: 5rem;
   border-radius: 20px;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  height: 90vh;
-  align-items: center;
   justify-content: center;
-  max-width: 90%;
-
-  /*to be deleted*/
-  /*background-color: yellow;*/
 }
