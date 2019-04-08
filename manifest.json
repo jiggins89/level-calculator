@@ -22,7 +22,7 @@
   "start_url": "/level-calculator",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/",
+  "scope": "/level-calculator",
   "theme_color": "#0165A4",
   "background_color": "#0165A4"
 }
