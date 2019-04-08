@@ -19,7 +19,7 @@
     }
   ],
 
-  "start_url": "/",
+  "start_url": "/level-calculator",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
