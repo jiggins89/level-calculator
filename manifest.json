@@ -1,0 +1,28 @@
+{
+  "short_name": "Datum Calc",
+  "name": "Datum Calculator",
+  "icons": [
+    {
+      "src": "/images/001-compass.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/images/001-compass.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./images/001-compass.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "theme_color": "#0165A4",
+  "background_color": "#0165A4"
+}

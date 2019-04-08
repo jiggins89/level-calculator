@@ -2,7 +2,7 @@ body {
   /* general text style*/
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
-  background-color: #E8E8E8;
+  background-color: #F5F5F5;
 }
 
 h1 {
@@ -16,15 +16,12 @@ h4 {
 
 p {
   font-size: 1.5rem;
-}
-
-img {
-  margin-bottom: 5%;
-  margin-top: 5%;
+  margin-bottom: 0rem;
 }
 
 table {
   width: 100%;
+  margin-bottom: 3%;
 }
 
 tr {
@@ -43,55 +40,101 @@ td {
 
 input {
   width: 100%;
-  border: 5px solid grey;
-  border-style: inset;
-  border-radius: 20px;
+  /*border: 5px solid grey;*/
+  /*border-style: inset;*/
+  border-radius: 10px;
 }
 
 tr td button {
   height: 8vh;
-  /*margin-bottom: 5vh;*/
   text-align: center;
   font-size: 5rem;
   font-weight: 400;
+  margin-top: 2%;
+  /*margin-bottom: 3%;*/
 }
 
 tr td input {
-  /*height: 100%;*/
-  /* margin-bottom: 10%; */
   text-align: center;
   font-size: 5rem;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
 
+footer {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: #0165A4;
+  color: white;
+  padding: 2%;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
 .container {
+  height: 100vh;
+  max-width: 100%;
+  padding: 0px;
   display: flex;
   flex-direction: column;
-  padding-top: 10%;
-  max-height: 70vh;
-  align-items: center;
-  justify-content: center;
-  max-width: 90%;
-  margin-top: 5%;
+  position: relative;
+}
 
-  /*to be deleted*/
-  /*background-color: yellow;*/
+.calculator {
+  padding: 5%;
+}
+
+.jh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-primary {
-  /*height: 80%;*/
   width: 100%;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: #0165A4;
   font-family: 'Roboto Slab', serif;
   font-weight: 400;
+  border-color: #0165A4;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0165A4;
+  border-color: #0165A4;
+}
+
+#desl {
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 #result {
   height: 8vh;
-  border: 5px solid grey;
-  border-style: inset;
   text-align: center;
   font-size: 5rem;
   border-radius: 20px;
   justify-content: center;
 }
+
+#error {
+  height: 8vh;
+  text-align: center;
+  font-size: 5rem;
+  border-radius: 20px;
+  justify-content: center;
+  color: red;
+}
+
+
