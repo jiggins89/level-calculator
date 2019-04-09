@@ -2,24 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Level Calculator</title>
-    <meta name="description" content="Some crap for Quigley">
+    <title>Datum Calculator</title>
+    <meta name="description" content="A simple and effective app to calculate your datume heights on site">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
-    <link rel="icon" href="images/001-compass.png">
+    <link rel="icon" href="images/desl-logo.png">
     <!-- app icon for ios -->
-    <link rel="apple-touch-icon" href="images/001-compass.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/001-compass.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/001-compass.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="images/001-compass.png">
+    <link rel="apple-touch-icon" href="images/desl-logo.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/desl-logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/desl-logo.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/desl-logo.png">
   </head>
 
   <body>
     <div class="container">
-      <div class="calculator">
+
+      <div class="banner">
         <div>
           <img src="images/desl.png" alt="dornan engineering" width="100%" id="desl">
         </div>
@@ -30,7 +31,9 @@
           </a>
           <p>technologies</p>
         </div>
+      </div>
 
+      <div class="calculator">
         <table>
           <tr><td>Drawing Elevation(mm):</td></tr>
           <tr><td><input type="text" pattern="[0-9]*" id=dwg-elev></td></tr>
@@ -51,19 +54,6 @@
           <tr><td id="result"></td></tr>
         </table>
       </div>
-
-      <footer>
-        <!-- <div class="jh">
-          <p>Powered by </p>
-          <a href="https://www.johnhiggins.io">
-            <img src="images/JH-Logo-transparent.png" alt="JH Technologies" height="100vh">
-          </a>
-          <p> technologies</p>
-        </div> -->
-
-        <p><small>Icon made by Freepik from <a href="https://www.flaticon.com">www.flaticon.com</a></small></p>
-      </footer>
-
     </div>
 
     <script>

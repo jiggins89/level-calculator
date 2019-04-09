@@ -1,5 +1,6 @@
+/*#### Mobile design ####*/
+
 body {
-  /* general text style*/
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   background-color: #F5F5F5;
@@ -40,18 +41,14 @@ td {
 
 input {
   width: 100%;
-  /*border: 5px solid grey;*/
-  /*border-style: inset;*/
   border-radius: 10px;
 }
 
 tr td button {
-  height: 8vh;
   text-align: center;
   font-size: 5rem;
   font-weight: 400;
   margin-top: 2%;
-  /*margin-bottom: 3%;*/
 }
 
 tr td input {
@@ -87,10 +84,20 @@ a:hover {
   display: flex;
   flex-direction: column;
   position: relative;
+  align-items: center;
 }
 
 .calculator {
   padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.banner {
+  padding: 5%;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .jh {
@@ -99,6 +106,10 @@ a:hover {
   align-items: center;
   color: #0165A4;
   margin-bottom: 5%;
+}
+
+.jh img {
+  height: 80px;
 }
 
 .btn-primary {
@@ -118,7 +129,6 @@ a:hover {
 }
 
 #desl {
-  /*margin-bottom: 5%;*/
   margin-top: 5%;
 }
 
@@ -139,4 +149,66 @@ a:hover {
   color: red;
 }
 
+/*#### Tablets ####*/
+@media screen and (min-device-width: 480px){
+  td {
+    font-size: 2rem;
+  }
+
+  tr td input {
+    font-size: 3rem;
+  }
+
+  tr td button {
+    font-size: 2.5rem;
+  }
+
+  .container {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .banner {
+    padding-right: 20%;
+    padding-left: 20%;
+  }
+}
+
+/* #### Desktops #### */
+@media screen and (min-width: 1024px){
+  p {
+    font-size: 1rem;
+  }
+
+  td {
+    font-size: 1.5rem;
+  }
+
+  tr td input {
+    font-size: 2rem;
+  }
+
+  tr td button {
+    font-size: 2rem;
+  }
+
+  footer {
+    padding: 1%;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .calculator {
+    width: 70%;
+    padding: 20%;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .banner {
+    width: 70%;
+  }
+}
 
